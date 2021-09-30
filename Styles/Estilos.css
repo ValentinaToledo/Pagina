@@ -14,34 +14,32 @@ ul{
     padding: 10px;
 }
 
-.mainButton{
-    background-color:teal;
-    color: white;
+.button{
     border: 0px;
     padding: 5px 10px;
     border-radius: 10px;
     font-weight: bolder;
-    box-shadow: 3px 3px turquoise;
+}
+
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.mainButton{
+    background-color:teal;
+    color: white;
 }
 
 .mainButton:hover{
-    cursor: pointer;
-    box-shadow: 5px 5px turquoise;
-    transform: scale(1.1);
+    box-shadow: 3px 3px turquoise;
 }
 
 .secondaryButton{
     background-color:rgb(21, 35, 158);
     color: white;
-    border: 0px;
-    padding: 5px 10px;
-    border-radius: 10px;
-    font-weight: bolder;
-    box-shadow: 3px 3px rgb(43, 160, 196);
 }
 
 .secondaryButton:hover{
-    cursor: pointer;
-    box-shadow: 5px 5px turquoise;
-    transform: scale(1.1);
+    box-shadow: 3px 3px rgb(43, 160, 196);
 }

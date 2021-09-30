@@ -13,3 +13,19 @@ ul{
     justify-content:space-between;
     padding: 10px;
 }
+
+.mainButton{
+    background-color:teal;
+    color: white;
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    box-shadow: 3px 3px turquoise;
+}
+
+.mainButton:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px turquoise;
+    transform: scale(1.1);
+}

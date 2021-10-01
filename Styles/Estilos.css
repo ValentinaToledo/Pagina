@@ -14,12 +14,10 @@ ul{
     padding: 10px;
 }
 
-<<<<<<< HEAD
 .logo{
     height: 150px;
 }
 
-=======
 .mainButton{
     background-color:teal;
     color: white;
@@ -35,4 +33,3 @@ ul{
     box-shadow: 5px 5px turquoise;
     transform: scale(1.1);
 }
->>>>>>> 5-crear-boton-nuevopost

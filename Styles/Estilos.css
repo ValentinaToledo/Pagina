@@ -9,9 +9,56 @@ ul{
 }
 
 .navpar{
+    background-color:rgb(43, 160, 196);
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     padding: 10px;
+}
+
+.navpar2{
+    background-color:rgb(40, 150, 190);
+    display: flex;
+    justify-content:right;
+    padding: 5px;
+}
+
+.logo{
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.tittle{
+    margin: 11px;
+    color: rgb(247, 247, 247);
+    font-size: 50px;
+    font-family: fantasy;
+    font-weight: bolder black;
+}
+
+.search{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 8px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search:focus-within{
+    border: 1px solid blue;
+}
+
+.search > input{
+    outline: none;
+    border: 0px;
+}
+
+.shoppingCart{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .button{
@@ -21,40 +68,72 @@ ul{
     font-weight: bolder;
 }
 
-.button:hover{
+.secondatyButton{
+    width: 120px;
+    height: 20px;
+    display: block;
+    background-color: rgb(40, 150, 190);
+    color: white;
+    border: 1PX solid black;
+    border-radius: 8px;
+}
+
+.secondatyButton:hover{
     cursor: pointer;
     transform: scale(1.1);
 }
 
-.mainButton{
-    background-color:teal;
-    color: white;
-}
-
-.mainButton:hover{
-    box-shadow: 3px 3px turquoise;
-}
-
-.secondaryButton{
-    background-color:rgb(21, 35, 158);
-    color: white;
-}
-
-.secondaryButton:hover{
-    box-shadow: 3px 3px rgb(43, 160, 196);
-}
-.buscar{
+.login{
+    margin: 5px;
+    width: 400px;
     background-color: white;
     border: 1px solid gray;
-    padding: 4px;
     border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.buscar:focus-within{
-    border: 1px solid red;
+.login:focus-within{
+    border: 1px solid black;
 }
 
-.buscar > input{
+.login > input{
     outline: none;
     border: 0px;
+}
+
+.marginContainer{
+    margin-top: 40px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 40px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.space{
+    margin: 20px;
+}
+
+.space2{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.continueButton{
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 50px;
+    width: 120px;
+    height: 40px;
+    display: block;
+    background-color:rgb(10, 129, 184);
+    color: white;
+    border: 1PX solid black;
+    border-radius: 8px;
 }
